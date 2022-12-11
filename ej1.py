@@ -26,10 +26,20 @@ refrescar_reloj()
 app.pack()
 app.mainloop()
 
-'''import time
+import time
 while True:
     localtime = time.localtime()
     result = time.strftime("%I : %M : %S %p", localtime)
     print(result)
     time.sleep(1)
-    break'''
+    break
+
+  #el código comentado anterior, funciona, no obstante, si quiere comprobarlo es mejor
+  # descomentarlo, debido a que si lo dejo activado, no funcionan ambos correctamente
+
+import os
+
+import os
+
+# Clearing the Screen
+os.system('cls')
